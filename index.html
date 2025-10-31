@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYD - Juego Educativo</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="game-container">
+
+        <div id="background"></div>
+
+        <h1>¡Bienvenido a Eldoria!</h1>
+
+        <div id="question-box" class="box">
+            <div id="problem-area"></div>
+        </div>
+
+        <input type="number" id="answer-input" placeholder="Tu respuesta" style="display:none;">
+        <button id="submit-btn" style="display:none;">Enviar</button>
+
+        <div id="message-box" class="box">
+            <div id="message-area"></div>
+        </div>
+
+        <div id="status-container">
+            <div class="box status-box" id="lives-box">
+                <p id="lives">Vidas: 3</p>
+            </div>
+            <div class="box status-box" id="level-box">
+                <p id="level">Nivel: 1</p>
+            </div>
+            <div class="box status-box" id="xp-box">
+                <p id="xp">XP: 0</p>
+            </div>
+        </div>
+
+        <div id="combat-container">
+            <div id="wizard-box" class="combat-box">
+                <img id="wizard-img" src="img/mago.png" alt="Mago">
+            </div>
+            <div id="monster-box" class="combat-box">
+                <img id="monster-img" src="img/monstruo_default.png" alt="Monstruo">
+            </div>
+        </div>
+
+        <button id="start-music-btn">Iniciar Música</button>
+
+        <audio id="bg-music" loop></audio>
+        <audio id="magic-sound" src="audio/magia.mp3"></audio>
+        <audio id="hit-sound" src="audio/golpe.mp3"></audio>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
