@@ -1,2 +1,2 @@
 # trab_ent_des
-Para pruebas de ent_des
+Para subir archivos y purebas del curso de daw
